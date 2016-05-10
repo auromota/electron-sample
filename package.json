@@ -1,0 +1,14 @@
+{
+    "name": "electron-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron main.js"
+    },
+    "author": "Auro Mota",
+    "license": "MIT",
+    "dependencies": {
+        "electron-prebuilt": "^0.37.8"
+    }
+}
