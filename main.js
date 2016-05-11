@@ -14,6 +14,7 @@ app.on('ready', function() {
     mainWindow = new BrowserWindow({width: 500, height: 500});
     mainWindow.setMenu(null);
     mainWindow.loadURL('file://' + __dirname + '/view/index.html');
+    mainWindow.maximize();
     mainWindow.on('closed', function() {
         mainWindow = null;
     });
